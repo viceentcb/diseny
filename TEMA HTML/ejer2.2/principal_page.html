@@ -2,17 +2,42 @@
 <html lang="en">
 
 <head>
+    <!-- Basic HTML Meta Tags  -->
+    <meta name="keywords" content="curriculum" />
+    <meta name="description" content="curriculum" />
+    <meta name="language" content="ES">
+    <meta name="author" content="vicent, viceentcb@gmail.com">
+    <meta name="reply-to" content="viceentcb@gmail.com">
+
+    <!-- OpenGraph Meta Tags -->
+    <meta name="og:title" content="Curriculum-Princpial Page" />
+    <meta name="og:type" content="curriculum" />
+    <meta name="og:email" content="viceentcb@gmail.com" />
+    <meta name="og:locality" content="Ontinyent" />
+    <meta name="og:street-address" content=" Polígono Urbano Nº 2, 1, 46870 Ontinyent, Valencia, España" />
+    <meta name="og:locality" content="Valencia" />
+    <meta name="og:postal-code" content="46870" />
+    <meta name="og:country-name" content="Spain" />
+
+    <!--Twitter Card-->
+    <meta name="twitter:creator" content="@viceentcb" />
+    <meta name="twitter:site" content="@viceentcb" />
+    <meta name="twitter:card" content="Ejercicio 2.6" />
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum-Princpial Page</title>
 </head>
 
 <body>
+    <div itemscope itemtype="https://schema.org/Person">
+
     <nav>
-        <b><a href="http://127.0.0.1:5500/ejer2.2/experiencia.html">Experiencia</a></b>
-        <b><a href="http://127.0.0.1:5500/ejer2.2/educacion.html">Educacion</a></b>
-        <b><a href="http://127.0.0.1:5500/ejer2.2/software.html">Software kills</a></b>
-        <b><a href="http://127.0.0.1:5500/ejer2.2/idiomas.html">Idiomas</a></b>
+        <b><a itemprop="Experiencia"  href="http://127.0.0.1:5500/ejer2.2/experiencia.html">Experiencia</a></b>
+        <b><a itemprop="Educacion" href="http://127.0.0.1:5500/ejer2.2/educacion.html">Educacion</a></b>
+        <b><a itemprop="Software kills" href="http://127.0.0.1:5500/ejer2.2/software.html">Software kills</a></b>
+        <b><a itemprop="Idiomas" href="http://127.0.0.1:5500/ejer2.2/idiomas.html">Idiomas</a></b>
         <hr />
     </nav>
 
@@ -21,20 +46,18 @@
         <h1 align="center">CURRICULUM VITAE</h1>
     </header>
 
-    <section id="contact">
-        <img src="">
-        <h1>Vicent Coll Borreda </h1>
-        <h3>Developer web </h3>
-        <h3>Contact </h3>
-        <p>640 21 22 20 </p>
-        <a href="mailto:viceentcb@gmail.com">viceentcb@gmail.com</a>
-        <br /> <br />
-        <br />
-        <br />
-        <br />
-
-    </section>
-
+        <section id="contact">
+            <img src="">
+            <h1 itemprop="name">Vicent Coll Borreda </h1>
+            <h3 temprop="jobTitle">Developer web </h3>
+            <h3>Contact </h3>
+            <p>640 21 22 20 </p>
+            <a href="mailto:viceentcb@gmail.com">viceentcb@gmail.com</a>
+            <br /> <br />
+            <br />
+            <br />
+            <br />
+        </section>
 
     <section id="experiencia y educacion">
         <table>
@@ -133,6 +156,7 @@
             <p align="right"> <b><a href="http://127.0.0.1:5500/ejer2.2/experiencia.html">Experiencia</a></b></p>
         </nav>
     </footer>
+</div>
 
 </body>
 
