@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2.7</title>
+</head>
+
+<body>
+
+    <h1 align="center">Datalist</h1>
+    <p align="center">El elemento datalist representa una lista de opciones predefinidas que pueden ser utilizadas para
+        proveer sugerencias en muchos controles de formularios.
+    </p>
+    <label>Choose the best movie saga:
+        <input list="sagas" name="sagas" /></label>
+    <datalist id="sagas">
+        <option value="El padrino">
+        <option value="Jurassic Park">
+        <option value="El señor de los anillos">
+        <option value="Star wars">
+        <option value="Indiana Jones">
+        <option value="Regreso al futuro">
+    </datalist>
+
+    <hr />
+
+    <h1 align="center">Input multiple</h1>
+    <p align="center">El elemento input con el atributo multiple representa un input el cual acepta mas de un valor, por
+        ejeplo:
+    </p>
+    <p> En este caso podriamos subir uno o varios archivos:</p>
+    <input type="file" name="files" multiple="multiple" /><br><br>
+    <p>Y aqui podriamos poner varios emails separados por comas:</p>
+    <input type="email" name="mails" multiple="multiple" />
+
+    <hr />  
+
+    <h1 align="center">Autofocus:</h1>
+    <p align="center"> La función de este atributo es poner el cursor de manera activa en un input del formulario sin necesidad de hacer click en él.
+    </p>
+
+    <label> Name <input type="text" id="Name" name="Name" /></label>
+    <label> Apellidos <input type="text" id="Apellidos" name="Apellidos" /></label>
+    <label> Mail <input type="text" id="Mail" name="Mail" autofocus/></label>
+    <label> DNI <input type="text" id="DNI" name="DNI" /></label>
+
+
+
+
+</body>
+
+</html>
