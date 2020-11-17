@@ -1,0 +1,14 @@
+.cuadro {
+    width: 1000px;
+    height: 250px;
+    border: 1px solid;
+    border-color: black;
+
+}
+
+.cuadro__texto {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    color: black
+}
