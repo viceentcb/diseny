@@ -47,29 +47,41 @@
 
     .example-container__relquit {
       text-align: center;
-    	border: 10px solid orange;
+      border: 10px solid orange;
       padding: 10px;
-    	padding-top: 15px;
-    	width: 100px;
-    	height: 70px;
+      padding-top: 15px;
+      width: 100px;
+      height: 70px;
       float: left;
       clear: both;
     }
 
-    .example-container__isus{
+    .example-container__isus {
       margin: 5px;
       height: 120px;
-    	padding: 15px;
+      padding: 15px;
       width: 75px;
-    	float: right; 
-    	border: 10px solid orange;
-   
+      float: right;
+      border: 10px solid orange;
+
     }
 
-    .example-container__text{
+    .example-container__text {
       width: 650px;
     }
 
+    .box1 {
+      clear: none;
+
+    }
+
+    .box2 {
+      clear: left;
+    }
+
+    .box3 {
+      clear: both;
+    }
   </style>
 </head>
 
@@ -79,7 +91,8 @@
     <div class="example-container">
       <div class="example-container__relquit">reliquit</div>
       <div class="example-container__isus">ius</div>
-      <div class="example-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+      <div class="example-container__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
@@ -89,9 +102,9 @@
   </section>
   <section>
     <div class="example-container">
-      <div>reliquit</div>
-      <div>ius</div>
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+      <div class="example-container__relquit">reliquit</div>
+      <div class="example-container__isus">ius</div>
+      <div class="example-container__text box2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
@@ -101,9 +114,9 @@
   </section>
   <section>
     <div class="example-container">
-      <div>reliquit</div>
-      <div>ius</div>
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+      <div class="example-container__relquit">reliquit</div>
+      <div class="example-container__isus">ius</div>
+      <div class="example-container__text box3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est

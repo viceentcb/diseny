@@ -1,0 +1,51 @@
+:root {
+    --body-font:Arial, Helvetica, sans-serif;
+    --body-width:90%;
+    --body-margin:0 auto;
+    --h1-h2-font:Georgia, serif;
+    --center: center;
+    --h1-size:3em;
+    --fieldset-margim-bt:20px;
+    --label-weigth:bold;
+    --input-color:#f1af34;
+    --botton-size:15px;
+    --botton-height:40px;
+    --botton-width:110px;
+    --hover-color: #fad6d1;
+    
+}
+
+body {
+  font-family: var(--body-font);
+  width: var(--body-width);
+  margin: var(--body-margin);
+}
+h1, h2 {
+  font-family: var(--h1-h2-font);
+  text-align: var(--center)
+}
+h1 {
+  font-size: var(--h1-size);
+}
+fieldset { 
+    margin-bottom: var(--fieldset-margim-bt);
+}
+label {
+    font-weight: var(--label-weigth);
+}
+input:focus, select:focus {
+     outline-color: var(--input-color);
+}
+.boton-crear {
+    font-size: var(--botton-size);
+    height: var(--botton-height);
+    width: var(--botton-width);
+}
+
+.centrado {
+    text-align: var(--center)
+}
+
+div fieldset:hover{
+    background-color: var(--hover-color);
+}
