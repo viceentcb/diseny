@@ -1,0 +1,145 @@
+:root {
+    --body-font:Arial, Helvetica, sans-serif;
+    --body-width:90%;
+    --body-margin:0 auto;
+    --h1-h2-font:Georgia, serif;
+    --center: center;
+    --h1-size:3em;
+    --fieldset-margim-bt:20px;
+    --label-weigth:bold;
+    --input-color:#f1af34;
+    --botton-size:15px;
+    --botton-height:40px;
+    --botton-width:110px;
+    --hover-color: #616060;
+    --flex:flex
+    
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+a, h1, p, h3{
+    color: white;
+}
+.contact{
+    color: white;
+    /* flex: 0%; */
+    padding:1%;
+    font-size: 30px;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+.row_bot{
+    display: flex;
+    margin-left: 800px;
+    margin-right: 400px;
+    justify-content: space-around;
+}
+.experiencia,.educacion{
+    color: white;
+    flex: 20%;
+    font-size: 50px;
+}
+.experiencia__article p, .educacion__article p{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    width: 350px;
+    margin: 0px;
+}
+.experiencia__article, .educacion__article{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.experiencia__article h1, .educacion__article h1{
+    padding: 10px;
+}
+.tiempo, .lugar, .puesto{
+    font-size: 50px;
+    color: white;
+}
+.software__article{
+    display: flex;
+}
+.circulo {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ffffff;
+    border:4px solid gray;
+}
+.circulo_no {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: gray;
+    border:4px solid #ffffff;
+}
+.level{
+    display: flex;
+    justify-content:  center;
+}
+.idioma{
+    color: #ffffff;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin-right: 10px;
+    width: 120px;
+}
+.idiomas__article_items{
+    display: flex;
+    justify-content: center;
+
+}
+.educacion_page, .experiencia_page, .software_page, .idiomas_page{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+img.software:hover {
+    width: 150px; height: 150px;
+}
+img.contact:hover {
+    width: 65px;height: 65px;
+}
+
+fieldset { 
+    margin-bottom: var(--fieldset-margim-bt);
+}
+label {
+    font-weight: var(--label-weigth);
+}
+input:focus, select:focus {
+     outline-color: var(--input-color);
+}
+.send {
+    font-size: var(--botton-size);
+    height: var(--botton-height);
+    width: var(--botton-width);
+}
+
+.centrado {
+    text-align: var(--center)
+}
+
+div fieldset:hover{
+    background-color: var(--hover-color);
+}
