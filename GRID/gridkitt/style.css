@@ -10,48 +10,57 @@ body {
 
 .panel {
     background-color: black;
-    width: 50%;
-    height: 90%;
-    padding: 5em;
-    box-sizing: border-box;
+    padding: 3em;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    column-gap: 3em;
-    row-gap: 5em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 3em;
 }
 
 .panel__bar {
+    width: auto;
+    height: auto;
     padding: 2em;
     display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: 1 / 2 / 4 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4em;
+    gap: 1em;
 }
 
+
 .proof{
-    background-color:rgb(119, 37, 23);
-    width: 100px;
-    height: 20px;
+    background-color:rgb(73, 25, 17);
+    width: 80px;
+    height: 15px;
+    margin-top:5px ;
+    margin-bottom:5px ;
+
 }
 
 .panel__type {
-    height: 400px;
-    padding-left: 10em;
-    padding-right: 10em;
+    width: auto;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
     grid-area: 4 / 2 / span 2 / 3;
     display: grid;
-    grid-template-columns: 0.2fr 1fr;
-    gap: 0.2em 3em;
+    grid-template-columns: 0.5fr 3fr;
+    gap: 0.1em 1em;
 }
 
 .panel__type  span{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
     text-align: center;
-    font-size: 200%;
+    font-weight: bold;
+    font-size: 100%;
 }
 
 .green {
@@ -63,11 +72,11 @@ body {
 }
 
 .red {
-   background-color: red;
+    background-color: red;
 }
 
 .panel__info {
-    font-size: 200%;
+    font-size: 120%;
     font-weight: bold;
     border-radius: 0.8em;
     display: flex;
