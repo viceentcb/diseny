@@ -1,0 +1,40 @@
+.area {
+    display: grid;
+    grid-template-areas:
+      'title title title'
+      'aside-left main aside-right'
+      'footer footer footer';
+    grid-template-rows: 0.2fr 1fr 0.1fr;
+    grid-template-columns: 0.4fr 1fr 0.4fr;
+    height: 90vh;
+  }
+  
+  
+  
+  .title {
+    background-color: red;
+    grid-area: title;
+    padding: 3em;
+  
+  }
+  
+  .main {
+    background-color: green;
+    grid-area: main;
+  }
+  
+  .left_aside {
+    background-color: blue;
+    grid-area: aside-left;
+  }
+  
+  .right_aside {
+    background-color: darkblue;
+    grid-area: aside-right;
+  }
+  
+  .footer {
+    background-color: darkred;
+    grid-area: footer;
+    padding: 1em;
+  }
