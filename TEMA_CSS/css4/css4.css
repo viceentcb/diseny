@@ -1,0 +1,15 @@
+.black {
+    width: 300px;
+    border-width: 11px 17px 6px 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+}
+
+.colors {
+    width: 315px;
+    border-top: 11px solid #ff0000;
+    border-right: 17px solid #0000ff;
+    border-bottom: 6px solid #4CF000;
+    border-left: 1px solid #808080;
+}

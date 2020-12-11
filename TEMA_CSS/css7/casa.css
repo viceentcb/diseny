@@ -1,0 +1,74 @@
+div {
+    position: absolute;
+    border: solid black 3px;
+    padding: 5px;
+}
+
+div.casa {
+    height: 250px;
+    width: 300px;
+    background-color: grey;
+    top: 100px;
+    left: 150px;
+}
+
+div.ventana1 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    top: 20px;
+    left: 50px;
+}
+
+div.ventana2 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    top: 20px;
+    left: 210px;
+}
+
+div.ventana3 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    top: 167px;
+    left: 50px;
+}
+
+div.ventana4 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    top: 167px;
+    left: 210px;
+}
+
+div.tejado {
+    height: 15px;
+    width: 330px;
+    background-color: purple;
+    top: -31px;
+    left: -17px;
+}
+
+div.chimenea {
+    height: 30px;
+    width: 10px;
+    background-color: maroon;
+    top: -46px;
+    left: 30px;
+}
+
+div.puerta {
+    height: 80px;
+    width: 50px;
+    background-color: maroon;
+    top: 167px;
+    left: 119px;
+}
+
+.pany {
+    top: 40px;
+    border: 0px;
+}
