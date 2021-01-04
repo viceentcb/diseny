@@ -1,0 +1,16 @@
+:root{
+    --heigth:650px;
+    --bck-n:no-repeat;
+    --bck-rx:repeat-x;
+    --bck-r:repeat;
+}
+
+body{
+    height: var(--heigth);
+    background-image:url(https://images.vexels.com/media/users/3/152639/isolated/lists/506b575739e90613428cdb399175e2c8-dibujos-animados-de-astronauta-espacial.png),
+    url(https://images.vexels.com/media/users/3/157795/isolated/lists/3b2b23922ab44dae1ced628d82d3179a-nave-espacial-ovni.png),
+    url(https://image.flaticon.com/icons/png/128/2407/2407292.png),
+    url(https://www.cambio16.com/wp-content/uploads/2020/08/politicamente-correcto.jpg);
+    background-position: top right, bottom left, center;
+    background-repeat:var(--bck-n), var(--bck-n), var(--bck-rx), var(--bck-r);
+}

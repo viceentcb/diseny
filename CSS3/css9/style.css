@@ -1,0 +1,26 @@
+:root{
+    --ctnt-center: center;
+    --border-size: solid 2px black;
+}
+
+header{
+    text-align: center;
+}
+
+.tipografias{
+    display: flex;
+    justify-content: var(--ctnt-center);
+    border: var(--border-size);
+}
+
+.tipografias__1{
+    font-family: Arial;
+    font-weight: 700;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+.tipografias__2{
+    font-family: sans-serif;
+    font-size:xx-large;
+}

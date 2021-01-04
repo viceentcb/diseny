@@ -1,0 +1,34 @@
+:root {
+    --border-style: 1px solid black;
+    --padding: 1em;
+    --underlined-color: yellow;
+    --width:20%;
+    --display:flex;
+    --content:center;
+}
+
+article {
+    width:  var(--width);
+    padding: var(--padding);
+    border: var(--border-style);
+}
+
+nav{
+    display:  var(--display);
+    justify-content:  var(--content);
+}
+
+nav a{
+    margin: 0.3em;
+}
+
+a[href="#resultados"] {
+    border-left:  var(--border-style);
+    border-right:  var(--border-style);
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+h1:target {
+    background-color: var(--underlined-color);
+}

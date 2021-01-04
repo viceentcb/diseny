@@ -1,0 +1,32 @@
+:root{
+    --body-display:flex;
+    --border-box:2px solid black;
+    --font-weight-selected:bold;
+    --back-selected:#ffff00;
+
+}
+
+body{
+    display: var(--body-display);
+    justify-content: center;
+}
+
+article{
+    width: 20%;
+    border: var(--border-box);
+}
+
+.FirstList li:nth-child(2) {
+    font-weight: var(--font-weight-selected);
+    background-color:var(--back-selected);
+}
+
+.SecondList li:nth-child(odd) {
+    font-weight: var(--font-weight-selected);
+    background-color:var(--back-selected);
+}
+
+.ThirdList li:nth-child(3n) {
+    font-weight: var(--font-weight-selected);
+    background-color:var(--back-selected);
+}

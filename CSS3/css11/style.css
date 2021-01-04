@@ -1,0 +1,21 @@
+:root {
+    --BorderBox-hover: 5px solid black;
+    --border-px: 10px;
+    --FontSize-hover: 50px;
+    --BkcgClr-hover: tomato;
+}
+
+.box {
+    border-style: dotted;
+    border-width: var(--border-px);
+    display: block;
+    width: fit-content;
+}
+
+.box:hover {
+    transition: background-color 0.5s, border 0.5s, font-size 1s;
+    font-size: var(--FontSize-hover);
+    border: var(--BorderBox-hover);
+    border-radius: var(--border-px);
+    background-color: var(--BkcgClr-hover);
+}

@@ -1,0 +1,15 @@
+.pelota{
+    width: 50px; 
+    height: 50px;
+    position: relative;
+    top:  -160px;
+    left:100px ;
+    transition: transform 2s ease;
+    transform: translate(0%, 200%);
+
+}
+
+.raqueta{
+    transform: rotate3d(1,1,-1,180deg);
+    transition: transform 2s ease;
+}

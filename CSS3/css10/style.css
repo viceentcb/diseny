@@ -1,0 +1,52 @@
+:root{
+    --clr:#fff;
+    --txt-al:center;
+    --we-he:150px;
+    --bck-clr:tomato;
+}
+.animate {
+    color:var(--clr);
+    text-align: var(--txt-al);
+    height: var(--we-he);
+    width: var(--we-he);
+    background-color: var(--bck-clr);
+    margin: 10px;
+    float: left;
+    transition: transform 0.5s ease;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+.scale{
+    transform: scale(0.5);
+}
+
+.skewX{
+    transform: skew(40deg);
+}
+
+.translate{
+    transform: translate(-50%);
+}
+
+.matrix{
+    transform: matrix(1, 2, -1, 1, 20, 40);
+}
+
+.rotate3d{
+    transform: rotate3d(5,1,1,180deg);
+}
+
+.rotateY{
+    transform: rotateY(180deg);
+}
+
+.rotateZ{
+    transform: rotateZ(-180deg);
+}
+
+.rotateXYZ{
+    transform: rotate3d(2, 3, 4, 90deg);
+}

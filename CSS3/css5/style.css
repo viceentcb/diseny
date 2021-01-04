@@ -1,0 +1,38 @@
+:root{
+    --general-padding:10px;
+    --general-border:5px solid;
+    --width-container:500px;
+    --border-container: var(--general-border) #7f7f7f;
+    --width-box:250px;
+    --border-box:var(--general-border) #ffaa00;
+
+    
+}
+
+.divBoxSizing {
+    width: var(--width-container);
+    border: var(--border-container);
+    margin-bottom: var(--general-padding);
+}
+
+.divBoxes {
+    width: var(--width-box);
+    border: var(--border-box);
+    padding: var(--general-padding);
+    float: right;
+    box-sizing: border-box;   /* BOX SIZING */
+}
+
+
+
+.divContainer {
+    width: var(--width-container);
+    border: var(--border-container);
+  }
+
+.divBox {
+    width: var(--width-box);
+    border: var(--border-box);
+    padding: var(--general-padding);
+    float:left;
+  }

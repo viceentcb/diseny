@@ -1,0 +1,44 @@
+:root{
+    --width-card-rclm: 40% ;
+    --border-card-rclm:solid black 1px;
+    --margin-info-card-rclm: 2em;
+    --decoration-a:none;
+    --padding-icon-a:30px;
+    --background-a: 20px ;
+    --font-icon-pdf:italic;
+    --font-icon-zip:bolder;
+    --icon-avatar: url('https://ruedastore.com/wp-content/uploads/2019/11/avatar-icon.png') no-repeat;
+    --icon-pdf: url('data:image/png;base64,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') no-repeat;
+    --icon-zip: url('https://icons.iconarchive.com/icons/icons8/windows-8/256/Files-Zip-icon.png') no-repeat;
+}
+
+.card, .reclamaciones{
+    width:  var(--width-card-rclm);
+    border:  var(--border-card-rclm);
+}
+
+.card__info, .reclamaciones__info{
+    margin: var(--margin-info-card-rclm);
+}
+
+a{
+    text-decoration: var(--decoration-a);
+    padding-left: var(--padding-icon-a);
+}
+
+a[href^="mailto"] {
+    background: var(--icon-avatar);
+    background-size:var(--background-a);
+}
+
+a[href="#pdf"] {
+    font-style: var(--font-icon-pdf);
+    background: var(--icon-pdf);
+    background-size:var(--background-a);
+}
+
+a[href="#zip"] {
+    font-weight: var(--font-icon-zip);
+    background: var(--icon-zip);
+    background-size:var(--background-a);
+}
