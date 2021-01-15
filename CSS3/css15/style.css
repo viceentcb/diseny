@@ -1,0 +1,84 @@
+:root {
+    --justify-center: center;
+    --width-img: 100px;
+    --cien: 100%;
+    --doscien: 100%;
+    --deg: 180deg;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: var(--justify-center);
+}
+
+img {
+    width: var(--width-img);
+}
+
+.f1 {
+    filter:brightness(var(--doscien));
+}
+.f1:hover{
+    transform: rotate(var(--deg));
+}
+
+.f2 {
+    filter:contrast(var(--doscien));
+}
+.f2:hover{
+    transform: scale(0.5);
+}
+
+.f3{
+    filter:drop-shadow(8px 8px 10px gray);
+}
+.f3:hover{
+    transform: skew(40deg);
+}
+
+.f4{
+    filter:grayscale(var(--cien));
+}
+.f4:hover{
+    transform: translate(-50%);
+}
+
+.f5{
+    filter:hue-rotate(90deg);
+}
+.f5:hover{
+    transform: matrix(1, 2, -1, 1, 20, 40);
+}
+
+.f6{
+    filter:invert(--var(--cien));
+}
+.f6:hover{
+    transform: rotate3d(5,1,1,var(--deg));
+}
+
+.f7{
+    filter:opacity(30%);
+}
+.f7:hover{
+    transform: rotateY(var(--deg));
+}
+
+.f8{
+    filter:saturate(8);
+}
+.f8:hover{
+    transform: rotateZ(-180deg);
+}
+
+.f9{
+    filter:sepia(--var(--cien));
+}
+.f9:hover{
+    transform: rotateZ(-180deg);
+}
+
+.f10{
+    filter:blur(5px);
+}

@@ -1,0 +1,33 @@
+:root {
+    --border: solid 1px red;
+    --ClipPolygon: polygon(100% 0, 0 100%, 0 0);
+    --ClipCircle: 50%;
+    --ClipInset: 10%;
+    --ClipEllipse: 30% 45%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    border: var(--border);
+    margin: 20px;
+}
+
+.clip-css {
+    clip-path: var(--ClipPolygon);
+}
+
+.clip-css2 {
+    clip-path: circle(var(--ClipCircle))
+}
+
+.clip-css3 {
+    clip-path: ellipse(var(--ClipEllipse))
+}
+
+.clip-css4 {
+    clip-path: inset(var(--ClipInset) var(--ClipInset) var(--ClipInset) var(--ClipInset) round 15px)
+}
