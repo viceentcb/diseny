@@ -1,6 +1,8 @@
 :root{
   --img: url(palmera.svg);
   --img2: url(sol.svg);
+  --cen:center;
+  --nr:no-repeat;
 }
 
 
@@ -10,8 +12,8 @@ div{
 }
 
 .mascara-0 {  
-  mask:var(--img2) center / 50%  no-repeat; 
-    -webkit-mask:var(--img2) center / 50%  no-repeat;
+  mask:var(--img2) var(--cen) / 50%  var(--nr); 
+    -webkit-mask:var(--img2) var(--cen) / 50%  var(--nr);
 }
 
 .mascara-1 {
@@ -28,11 +30,11 @@ div{
 }
 
 .mascara-3 {
-  mask:var(--img) center / 75% repeat-y;
-    -webkit-mask:var(--img) center / 75% repeat-y;
+  mask:var(--img) var(--cen) / 75% repeat-y;
+    -webkit-mask:var(--img) var(--cen) / 75% repeat-y;
 }
 
 .mascara-4 {
-  mask:var(--img2) top / 150px no-repeat, var(--img2) bottom / 280px no-repeat;
-  -webkit-mask:var(--img2) top / 150px no-repeat, var(--img2) bottom / 280px no-repeat;
+  mask:var(--img2) top / 150px var(--nr), var(--img2) bottom / 280px var(--nr);
+  -webkit-mask:var(--img2) top / 150px var(--nr), var(--img2) bottom / 280px var(--nr);
 }
