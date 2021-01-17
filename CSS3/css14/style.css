@@ -1,0 +1,38 @@
+:root{
+  --img: url(palmera.svg);
+  --img2: url(sol.svg);
+}
+
+
+div{
+  display: inline-block;
+  margin: 30px;
+}
+
+.mascara-0 {  
+  mask:var(--img2) center / 50%  no-repeat; 
+    -webkit-mask:var(--img2) center / 50%  no-repeat;
+}
+
+.mascara-1 {
+  object-fit: cover;
+  mask-image:var(--img);
+    -webkit-mask-image:var(--img);
+  mask-size:50px 50px;
+    -webkit-mask-size:50px 50px;
+}
+
+.mascara-2 {
+  mask-image: var(--img),var(--img);
+    -webkit-mask-image: var(--img),var(--img);
+}
+
+.mascara-3 {
+  mask:var(--img) center / 75% repeat-y;
+    -webkit-mask:var(--img) center / 75% repeat-y;
+}
+
+.mascara-4 {
+  mask:var(--img2) top / 150px no-repeat, var(--img2) bottom / 280px no-repeat;
+  -webkit-mask:var(--img2) top / 150px no-repeat, var(--img2) bottom / 280px no-repeat;
+}
