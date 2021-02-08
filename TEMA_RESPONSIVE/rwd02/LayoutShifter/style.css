@@ -1,0 +1,49 @@
+.box {
+  min-height: 150px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: #ec1d3b;
+}
+
+@media screen and (min-width: 600px) {
+  .blue {
+    width: 50%;
+  }
+  .container2 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blue {
+    width: 25%;
+    order: -1;
+  }
+  .container2 {
+    width: 50%;
+  }
+  .red {
+    width: 25%;
+    order: 1;
+  }
+}
