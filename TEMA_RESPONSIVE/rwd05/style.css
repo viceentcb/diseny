@@ -63,23 +63,23 @@ footer {
 
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 50px 500px 50px 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 50px 500px 50px 20px;
     grid-gap: 10px;
     grid-template-areas:
-      "header header"
-      "nav nav"
-      "main main"
-      "aside aside"
-      "footer footer";
-  }
-
-  header {
-    justify-content: start;
+      "header"
+      "nav"
+      "main"
+      "aside"
+      "footer";
   }
 
   img {
     display: none;
+  }
+
+  header {
+    justify-content: start;
   }
 
   nav {
@@ -89,15 +89,11 @@ footer {
   }
 
   nav a:hover {
-    background-color: chartreuse;
+    background-color: yellow;
   }
 
   aside {
     display: flex;
     align-items: center;
-  }
-
-  footer {
-    font-weight: bolder;
   }
 }
