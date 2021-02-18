@@ -1,0 +1,46 @@
+$TextColor: #eee;
+$BackgColor: #15a;
+$TextHoverColor: lighten($TextColor, 10%);
+$BackgHoverColor: lighten($BackgColor, 10%);
+$TittleColor: darken($BackgColor, 10%);
+
+@import "_mixin";
+
+
+@keyframes iluminar {
+  from {
+    background-color: $BackgColor;
+    color: $TextColor;
+  }
+  to {
+    background-color: $BackgHoverColor;
+    color: $BackgHoverColor;
+  }
+}
+
+footer {
+  @include colours();
+  @include BoxSizing(border_box);
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding: 5px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  padding: 12px 30px;
+  font-size: 1.8em;
+  color: #444;
+  background-color: #eee;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #aaa;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@import "_menu";
+@import "_contenido"; ;

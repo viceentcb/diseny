@@ -1,0 +1,28 @@
+$orange: #ff8000;
+$green: #2e5f64;
+
+#primero .destacado {
+  color: $orange;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 6px;
+}
+
+#segundo .destacado {
+  color: $green;
+  font-size: 1.4rem;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+p:not(.destacado)::first-line {
+  font-style: italic;
+}
+
+div {
+  padding: 20px;
+}
+
+div #parrafos {
+  text-align: right;
+}
